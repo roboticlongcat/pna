@@ -1,0 +1,64 @@
+/* Контейнер для карточек */
+#root {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;               /* Увеличили расстояние между карточками */
+  padding: 20px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+/* Стили для карточки */
+.card {
+  width: 300px;           /* Фиксированная ширина */
+    height: 500px;      /* Минимальная высота */
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  flex-direction: column;
+  box-sizing: border-box;  /* Важно! Padding включается в ширину */
+  overflow: hidden;       /* Обрезаем всё, что выходит за границы */
+}
+
+/* Заголовок карточки */
+.card h2 {
+  color: #0062d1;
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 1.4em;
+  word-wrap: break-word;  /* Перенос длинных слов */
+}
+
+/* Текст карточки */
+.card p {
+  color: #333;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  word-wrap: break-word;  /* Перенос длинных слов */
+  overflow: hidden;      /* Дополнительная защита */
+}
+
+/* Кнопка */
+.card strong {
+  display: inline-block;
+  background-color: #0062d1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: auto;      /* Прижимаем к низу */
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  align-self: center;   /* Центрирование кнопки */
+}
+
+/* Разделительная линия */
+.card hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+  width: 100%;
+}
