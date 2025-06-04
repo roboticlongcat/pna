@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7IdXuL1dAVx3o2OcMreCftYGXP5AHtUga-g&s",
+        "title": "Bingus",
+        "text": "favourite bald kitten"
+    },
+    {
+        "id": 2,
+        "src": "https://images.steamusercontent.com/ugc/5088536233466642530/35D9F1EF85BA81DFB7F091E2AFF156F9C703CDC6/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+        "title": "Maxwell",
+        "text": "a small black and white domestic cat who has the rare condition of being oddly shaped like a loaf of bread"
+    },
+    {
+        "id": 3,
+        "src": "https://i.pinimg.com/736x/8b/ab/f9/8babf905d37e6a2d796ef5c38c310a4b.jpg",
+        "title": "Spoingus",
+        "text": "a cat with extremely funny мордочка"
+    }
+]
